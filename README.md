@@ -5,11 +5,12 @@
 #### ___its dangerous to go alone, take this:___
 
 1. Potential Work if environment sharing did not work-
-    A. 
+    
+    - 
         ```
         cd src/
         ```
-    B.
+    -
         ```
         .env\scripts\activate
         ```
