@@ -8,7 +8,7 @@ class Game:
     def __init__(self):
         # ? Game Setup
         pygame.init()
-        pygame.display.set_icon(pygame.image.load("a.png"))
+        pygame.display.set_icon(pygame.image.load("data\images\icon.png"))
         pygame.display.set_caption("PROGRAM")
         self.screen = pygame.display.set_mode((WIDTH, HEIGTH))
         self.clock = pygame.time.Clock()
@@ -22,7 +22,7 @@ class Game:
                     sys.exit()
 
             self.screen.fill('black')
-            debug("GAME_RUNNING")
+            debug("RUNNING")
             pygame.display.update()
             self.clock.tick(FPS)
 
